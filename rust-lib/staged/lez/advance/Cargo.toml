@@ -1,0 +1,17 @@
+# Staged by modules/scripts/stage.py from lez/advance of the repository: inherited fields resolved,
+# dev-dependencies and lints left out.
+
+[package]
+name = "ferrata-advance"
+description = "The attestation program's update steps (Open, Miller, Adopt, Finish) planned and checked natively, shared by ferrata-updater and ferrata_attest_module"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[dependencies]
+ferrata-lez-wire = { path = "../wire" }
+ferrata-core = { path = "../../crates/ferrata-core", features = ["blst"] }
+lee_core = { path = "../../../upstream/lez-v0.4.0-rc1/lee/state_machine/core" }
+borsh = { version = "=1.6.1", features = ["derive"] }
+anyhow = "1"

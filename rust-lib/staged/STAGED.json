@@ -1,0 +1,33 @@
+{
+ "commit": "98375f82c754f2fa4a56e20418687a89b321228f",
+ "lez": {
+  "dir": "upstream/lez-v0.4.0-rc1",
+  "commit": "1806e873ea2ac0e1b608aa7cf2f9b6e1fb12db21"
+ },
+ "crates": [
+  {
+   "name": "ferrata-core",
+   "version": "0.0.1",
+   "from": "crates/ferrata-core",
+   "source_sha256": "8f82b7f97bcf68c61f4828aebee06cc6eec10e19f079ad700fc097b085365b97"
+  },
+  {
+   "name": "ferrata-lez-wire",
+   "version": "0.1.0",
+   "from": "lez/wire",
+   "source_sha256": "9d6fddb572e8936b4ac8b6a84e6964cfab1a172652ab108d765423ca8257d0d5"
+  },
+  {
+   "name": "ferrata-advance",
+   "version": "0.1.0",
+   "from": "lez/advance",
+   "source_sha256": "bf6468d05fb9a9f82ce24f4a2ecd19ec0f0a026160eec779f58d4c91d4ce4531"
+  },
+  {
+   "name": "lee_core",
+   "version": "0.1.0",
+   "from": "upstream/lez-v0.4.0-rc1/lee/state_machine/core",
+   "source_sha256": "11ec726553cdf6d7aed30ab3c4eadd07135caae2d43d76fec62ef8f5e19569e5"
+  }
+ ]
+}
